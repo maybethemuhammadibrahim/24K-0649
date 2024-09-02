@@ -1,0 +1,19 @@
+Pseudocode for finding sum without + operator
+
+--------------------------------------------------------------------------
+
+Start
+
+Input number1
+Input number2
+Input number3
+
+Set number2 = -1 * number2
+Set number3 = -1 * number3
+
+Set sum to 0
+Set sum = number1 - number2 - number 3
+
+Print sum
+
+End

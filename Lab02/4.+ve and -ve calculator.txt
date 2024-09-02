@@ -1,0 +1,21 @@
+Pseudocode for a program to add and subtract
+----------------------------------------------------------------
+
+Start
+
+Input number1
+Input number2
+Input operation
+Set answer to 0
+
+If operation == "Add" OR operation == "+" Then
+	Set answer = number1 + number2
+	Print answer
+Else If operation == "Subtract" OR operation == "-" 
+	Set Answer = number1 - number2
+	Print answer
+Else 
+	Print "Please enter 'Add', '+','Subtract','-' in the operator input"
+
+End
+

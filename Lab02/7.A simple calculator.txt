@@ -1,0 +1,47 @@
+Algorithm and Pseudocode for a simple console calculator
+------------------------------------------------------------------------
+
+Algorithm:
+Ask the user for the first number
+Ask the user for the operation (+,-,*,/)
+Ask the user for the second number
+Check if operation is equal to "+" , if this is true then continue this step, if not true then skip to next step
+	let Sum = first number + second number
+	Display "Sum"
+Check if operation is equal to "-" , if this is true then continue this step, if not true then skip to next step
+	let Difference = first number - second number 
+	Display "Difference"
+Check if operation is equal to "*" , if this is true then continue this step, if not true then skip to next step
+	let Product = first number * second number
+	Display "Product"
+Check if operation is equal to "/" , if this is true then continue this step, if not true then skip to next step
+	let Fraction = first number / second number
+	Display "Fraction"
+If none of the conditions are met ask the user to Re-enter the operator
+
+
+Pseudocode:
+Start
+Input firstno
+Input operator
+Input secondno
+
+If operator == "+" Then
+	let sum = firstno + secondno
+	Print sum
+
+Else if operator == "-" Then
+	let diff = firstno - secondno
+	Print diff
+
+Else if operator == "*" Then
+	let product = firstno * secondno
+	Print product
+
+Else if operator == "/" Then
+	let frac = firstno / secondno
+	Print frac
+Else 
+	Print "Please Re-Enter the operator (+,-,*,/)"
+
+End

@@ -1,0 +1,52 @@
+Algorithm and Pseudocode for displaying month on input from user
+
+------------------------------------------------------------------------
+Algorithm:
+
+Ask the user to enter a number from 1-12 known as month number
+If month number == 1 Then display "January"
+If month number == 2 Then display "February"
+If month number == 3 Then display "March"
+If month number == 4 Then display "April"
+If month number == 5 Then display "May"
+If month number == 6 Then display "June"
+If month number == 7 Then display "July"
+If month number == 8 Then display "August"
+If month number == 9 Then display "September"
+If month number == 10 Then display "October"
+If month number == 11 Then display "November"
+If month number == 12 Then display "December"
+If month number is not matched Then display "Please enter a number in the range of 1-12"
+
+
+
+Pseudocode:
+Start
+Input month number
+If month number == 1 Then
+	Print "January"
+Else If month number == 2 Then
+	Print "February"
+Else If month number == 3 Then
+	Print "March"
+Else If month number == 4 Then
+	Print "April"
+Else If month number == 5 Then
+	Print "May"
+Else If month number == 6 Then
+	Print "June"
+Else If month number == 7 Then
+	Print "July"
+Else If month number == 8 Then
+	Print "August"
+Else If month number == 9 Then
+	Print "September"
+Else If month number == 10 Then
+	Print "October"
+Else If month number == 11 Then
+	Print "November"
+Else If month number == 12 Then
+	Print "December"
+Else 
+	Print "Please enter a number in the range of 1-12"
+End

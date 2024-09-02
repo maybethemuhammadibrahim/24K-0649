@@ -1,0 +1,18 @@
+Pseudocode for finding maximum in three variables
+--------------------------------------------------------------------------
+
+
+Start
+
+Input number1
+Input number2
+Input number3
+
+If number1>number2 and number1>number3 Then
+	Print "Number 1 is greater"
+Else If number2>number3 and number2>number1 Then
+	Print "Number 2 is greater"
+Else 
+	Print "Number 3 is greater"
+
+End
