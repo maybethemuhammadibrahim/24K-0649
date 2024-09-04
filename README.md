@@ -9,7 +9,7 @@
   
 ![1](https://github.com/user-attachments/assets/eb850f68-8238-4b02-aa08-8894d8a030f8)
 
--🎉 Love to game in my free time
+-🎉 Love to play video games in my free time
 
 ![2](https://github.com/user-attachments/assets/c68c4aae-06ed-4a0e-8788-82955c3c2c27)
 
