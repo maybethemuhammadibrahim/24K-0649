@@ -1,11 +1,8 @@
 Ask the user for the nth number 
-Ask the user for the N number
+Ask the user for the n number
 
-Check if the remainder by the division of nth number by N number is 0, by using modulus operator,if this is true
-        Print Nth is divisor of n
-        Check if the remainder of Nth divided by 2              is 0, by using modulus, if this is true
-              Print Number is Even
-        Else Check that whether the remainder of Nth divided by 2 is is 1, if this is true
-              Print Number is Odd
+Check if the remainder by the division of n number by nth number is 0, by using modulus operator, if this is true then display that nth number is the divisor of n and goto next step otherwise display that the nth number is not the divisor of n number and end the program(This includes nth being zero).
 
+Check if the remainder of nth divided by 2 is 0, by using modulus, if this is true display that the nth number is even. Otherwise check that whether the remainder of nth divided by 2 is 1, if this is true display that number is odd. If none of this is true display that zero cannot be checked for even or odd.
+              
                      
