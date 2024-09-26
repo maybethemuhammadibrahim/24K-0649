@@ -26,7 +26,8 @@ int main(){
 	caloriesFromFat = (fat*9);
 	
 	if (caloriesFromFat > calories){
-		printf("The value of Fat or calories is not correct");
+		printf("The value of either Fat or Calories are not correct;y entered");
+		return 0;
 	}
 	
 	float percentCalories = caloriesFromFat/calories;
