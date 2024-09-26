@@ -9,12 +9,11 @@ void main(){
         ((gpa>=1) && (gpa<2)) ?
         printf("On Probation"):
         ((gpa>=2) && (gpa<3))?
-        printf("no msg"):
+        printf("_"):
         ((gpa>=3) && (gpa<3.5))?
         printf("Dean's list"):
         ((gpa>=3.5) && (gpa<4))?
-        printf("highest honors for semester"):
-        printf("gpa not correct");
-        
-    
+        printf("Highest honors for semester"):
+        printf("GPA not entered correct");
+
 }
