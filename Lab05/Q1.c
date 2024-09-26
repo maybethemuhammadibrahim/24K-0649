@@ -17,16 +17,14 @@ int main(){
 	printf("Enter Fat(in grams): ");
 	scanf("%f", &fat);
 	
-	if (calories<0){
-		printf("Calories are entered as a negative number");
+	if (calories<0 || fat<0){
+		printf("Calories Or Fat values are entered as a negative number");
 		return 0;
 	}
-	else if(fat<0){
-		printf("Fat value is entered as a negative number");
-		return 0;
-	}
+
 	
 	caloriesFromFat = (fat*9);
+	
 	if (caloriesFromFat > calories){
 		printf("The value of Fat or calories is not correct");
 	}
