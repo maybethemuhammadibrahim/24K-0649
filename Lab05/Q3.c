@@ -6,41 +6,24 @@ int main(){
     //input coffee type
     printf("Enter the type of coffee you want to prepare(B for Black and W for White): ");
     scanf(" %c", &coffee);
-    //input validation
-    switch(coffee){
-        case 'w': coffee = 'W';break;
-        case 'b': coffee = 'B';break;
-        default:
-        printf("Wrong Type Of Coffee Entered!!");
-        return 0;
-    }
-
+   
     //input size
     printf("Enter the size of coffee(O for Orignal and D for Double and M for Manual): ");
     scanf(" %c", &size);
-    //size validation
-    switch(size){
-        case 'o':  size = 'O';
-        break;
-        case 'd':  size = 'D';
-        break;
-        case 'm':  size = 'M';
-        break;
-        default:
-        printf("Wrong Size Entered!!");
-        return 0;
-    }
+   
    
    //making increase multiplier
     switch(size){
+        case 'o':
         case 'O': 
         add_time_multiplier = 1; 
         break;
+        case 'd':
         case 'D': 
         add_time_multiplier = 1 + 50.0/100;
-        printf("%f", add_time_multiplier);
         //50 percent increase means 150% of orignal value
         break;
+        case 'm':
         case 'M': 
         printf("By how much percentage do you want to increase the orignal cup size (in %): ");
         scanf(" %f", &manual);
@@ -51,6 +34,7 @@ int main(){
 
     //printing and calculating time
     switch(coffee){
+        case 'w':
         case 'W':
         water= 15*add_time_multiplier;
         sugar= 15*add_time_multiplier;
@@ -66,7 +50,7 @@ int main(){
         printf("Mixing:%.1f mins\n", mix);
         printf("Total Time: %.1f mins", total_time);
         break;
-        
+        case 'b':
         case 'B':
         water= 20*add_time_multiplier;
         sugar= 20*add_time_multiplier;
@@ -81,6 +65,6 @@ int main(){
         printf("Total Time: %.1f mins", total_time);
         break;
         deault:
-        printf("test");
+        printf("Wrong Coffee entered");
     }
 }
