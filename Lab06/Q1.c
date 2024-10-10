@@ -6,7 +6,7 @@ want the program to continue or not */
 #include<stdio.h>
 
 int main(){
-    int input, sum;
+    int input, sum=0;
     input = 0;
     
     do
