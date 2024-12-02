@@ -3,30 +3,24 @@
 int main(){
     FILE *file1;
     FILE *file2;
+    int ch;
+    file1 = fopen("file1.txt","r");
+    if(file1 == NULL){
+        printf("FILE NOT READ");
+    }
     
-    file1 = fopen("file1.txt", "r");
-    if (file1 == NULL) {
-        printf("Error opening file1");
-        return 0; 
+    file2 = fopen("file2.txt","w+");
+    if(file2 == NULL){
+        printf("FILE2 NOT READ");
     }
 
-    file2 = fopen("file2.txt", "w");
-    if (file2 == NULL) {
-        printf("Error opening file2");
-        fclose(file1);  
-        return 0;
-    }
-
-    int temp;
-    while (fscanf(file1, "%d", &temp) != EOF) {
-        printf("%d",temp);
-        fprintf(file2, "%d\n", temp);
+    while((ch = fgetc(file1)) != EOF){
+        char buffer = (char)ch;
+        fprintf(file2, "%c", buffer);
     }
 
     fclose(file1);
     fclose(file2);
-
-    printf("Data copied successfully!\n");
 
     return 0;
 }
