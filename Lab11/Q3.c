@@ -1,7 +1,4 @@
-//The most simple approach would be to use fscanf to get each string from the file
-// and compare with the word we want(implement a counter if needed). 
-
-
+//only works with strings of equal lengths
 #include <stdio.h>
 #include <string.h>
 
@@ -24,7 +21,7 @@ int main(){
     int length=0;
     printf("Enter the word you want to replace in the file(max 10 char): ");
     scanf("%s",word);
-    printf("What do you;");
+    printf("What do you want to replace");
     scanf("%s",word2);
     
     while(fscanf(file,"%s", buffer) != EOF){
